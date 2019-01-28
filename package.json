@@ -1,0 +1,32 @@
+{
+  "name": "nodeschool",
+  "version": "1.0.0",
+  "description": "Tutorials of nodeschool website",
+  "main": "index.js",
+  "scripts": {
+    "learn-you-node": "./node_modules/.bin/learnyounode",
+    "stream-adventure": "./node_modules/.bin/stream-adventure"
+  },
+  "keywords": [
+    "nodeschool",
+    "tutorials"
+  ],
+  "author": "Railyn Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^1.2.1",
+    "child_process": "^1.0.2",
+    "concat-stream": "^1.6.0",
+    "duplexer2": "^0.1.4",
+    "learnyounode": "^3.5.10",
+    "request": "^2.88.0",
+    "split": "^1.0.1",
+    "stream-adventure": "^4.0.5",
+    "stream-combiner": "^0.2.2",
+    "strftime": "^0.10.0",
+    "through2": "^2.0.3",
+    "trumpet": "^1.7.2",
+    "websocket-stream": "^5.0.0",
+    "zlib": "^1.0.5"
+  }
+}
