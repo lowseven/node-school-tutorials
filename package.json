@@ -1,11 +1,12 @@
 {
-  "name": "nodeschool",
+  "name": "node-school-tutorials",
   "version": "1.0.0",
   "description": "Tutorials of nodeschool website",
   "main": "index.js",
   "scripts": {
     "learn-you-node": "./node_modules/.bin/learnyounode",
-    "stream-adventure": "./node_modules/.bin/stream-adventure"
+    "stream-adventure": "./node_modules/.bin/stream-adventure",
+    "javascripting": "./node_modules/.bin/javascripting"
   },
   "keywords": [
     "nodeschool",
@@ -18,6 +19,7 @@
     "child_process": "^1.0.2",
     "concat-stream": "^1.6.0",
     "duplexer2": "^0.1.4",
+    "javascripting": "^2.6.1",
     "learnyounode": "^3.5.10",
     "request": "^2.88.0",
     "split": "^1.0.1",
@@ -28,5 +30,14 @@
     "trumpet": "^1.7.2",
     "websocket-stream": "^5.0.0",
     "zlib": "^1.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowseven/node-school-tutorials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lowseven/node-school-tutorials/issues"
+  },
+  "homepage": "https://github.com/lowseven/node-school-tutorials#readme"
 }
