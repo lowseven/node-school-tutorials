@@ -6,7 +6,8 @@
   "scripts": {
     "learn-you-node": "./node_modules/.bin/learnyounode",
     "stream-adventure": "./node_modules/.bin/stream-adventure",
-    "javascripting": "./node_modules/.bin/javascripting"
+    "javascripting": "./node_modules/.bin/javascripting",
+    "regex-adventure": "./node_modules/.bin/regex-adventure"
   },
   "keywords": [
     "nodeschool",
@@ -21,6 +22,8 @@
     "duplexer2": "^0.1.4",
     "javascripting": "^2.6.1",
     "learnyounode": "^3.5.10",
+    "marked": "^0.6.0",
+    "regex-adventure": "^1.1.2",
     "request": "^2.88.0",
     "split": "^1.0.1",
     "stream-adventure": "^4.0.5",
@@ -31,7 +34,6 @@
     "websocket-stream": "^5.0.0",
     "zlib": "^1.0.5"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lowseven/node-school-tutorials.git"
